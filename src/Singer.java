@@ -6,20 +6,6 @@ public class Singer extends Person {
         this.bandName=bandName;
     }
 
-    @Override
-    public void learn() {
-        System.out.println(getName() + " учится петь");
-    }
-
-    @Override
-    public void walk() {
-        System.out.println(getName() + " гуляет");
-    }
-
-    @Override
-    public void eat() {
-        System.out.println(getName() + " ест");
-    }
 
     public void singing() {
         System.out.println(getName() + " поет ");

@@ -7,13 +7,13 @@ public class Person {
         this.designation = designation;
     }
     public void learn(){
-
+        System.out.println(name+" learning");
     }
     public void walk(){
-
+        System.out.println(name+" walk");
     }
     public void eat(){
-
+        System.out.println(name+" eating");
     }
 
     public String getName() {

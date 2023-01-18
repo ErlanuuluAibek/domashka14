@@ -6,20 +6,6 @@ public class Programmer extends Person {
         this.companyName = companyName;
     }
 
-    @Override
-    public void learn() {
-        System.out.println(getName() + " Учится программировать");
-    }
-
-    @Override
-    public void walk() {
-        System.out.println(getName() + " гуляет");
-    }
-
-    @Override
-    public void eat() {
-        System.out.println(getName() + " ест");
-    }
 
     public void coding() {
         System.out.println(getName() + " программирует на языке джава");

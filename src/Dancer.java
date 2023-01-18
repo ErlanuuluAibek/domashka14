@@ -6,20 +6,6 @@ public class Dancer extends Person {
         this.groupName = groupName;
     }
 
-    @Override
-    public void learn() {
-        System.out.println(getName() + " учится танцевать");
-    }
-
-    @Override
-    public void walk() {
-        System.out.println(getName() + " гуляет");
-    }
-
-    @Override
-    public void eat() {
-        System.out.println(getName() + " ест");
-    }
 
     public void dancing() {
         System.out.println(getName() + " танцует балет");
